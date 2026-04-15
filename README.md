@@ -1,9 +1,9 @@
 # Al Prince
 
-Full Stack Developer
+Full Stack Developer | Product-Focused Engineer
 
-- Specializing in modern web applications, scalable backend systems, and clean UI architecture.
-- Currently building production-ready tools focused on performance, maintainability, and strong developer experience.
+- Specializing in high-performance web applications, scalable backend architecture, and clean, accessible interfaces.
+- Currently building production-ready tools that improve reliability, user experience, and developer velocity.
 
 ## Tech Stack
 
@@ -33,24 +33,24 @@ Full Stack Developer
 ## Featured Projects
 
 ### OpsBoard
-- Real-time operations dashboard for incident tracking, SLA monitoring, and deployment visibility.
+- Real-time operations dashboard that centralizes incident tracking, SLA monitoring, and deployment visibility.
 - Tech used: React, TypeScript, Node.js, PostgreSQL, Docker.
 
 ### SkillForge API
-- Backend API for a learning platform with authentication, progress tracking, and recommendation services.
+- Backend API platform with authentication, progress tracking, and recommendation services for personalized learning.
 - Tech used: Python, FastAPI, Redis, PostgreSQL.
 
 ### SnapBudget
-- Personal finance app for expense tracking, budget planning, and monthly spending insights.
+- Personal finance application for expense tracking, budget planning, and actionable monthly spending insights.
 - Tech used: Next.js, TypeScript, Prisma, PostgreSQL.
 
 ## What I Can Do
 
-- Build responsive web apps.
-- Design clean UI/UX interfaces.
-- Develop REST APIs.
-- Optimize system performance.
-- Implement complex business logic.
+- Build responsive, mobile-first web applications.
+- Design clean and intuitive UI/UX interfaces.
+- Develop secure and well-structured REST APIs.
+- Optimize system performance and scalability.
+- Implement complex business logic with maintainable code.
 
 ## GitHub Stats
 
