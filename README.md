@@ -1,6 +1,8 @@
 # Hi, I am Al Prince
 
-I am a developer focused on building practical software, learning continuously, and sharing what I create. I enjoy working across full-stack projects, automation, and clean developer workflows.
+I am a full-stack developer focused on building practical web applications, internal automation tools, and clean developer workflows. I enjoy turning messy ideas into production-ready products with reliable architecture and clear documentation.
+
+> Note: This profile currently uses mock data for portfolio, project links, and contact details.
 
 ## Skills
 
@@ -14,23 +16,26 @@ I am a developer focused on building practical software, learning continuously, 
 
 ## Featured Projects
 
-### 1. Project One
-Brief description: A short summary of what this project solves and why it is useful.
+### 1. OpsBoard
+Brief description: A role-based operations dashboard for tracking incidents, deployment health, and SLA metrics in real time.
 
-- Repository: https://github.com/princeprog/project-one
-- Live Demo: https://project-one-demo.example.com
+- Repository: https://github.com/princeprog/opsboard
+- Live Demo: https://opsboard-demo.example.dev
+- Stack: React, TypeScript, Node.js, PostgreSQL, Docker
 
-### 2. Project Two
-Brief description: A short summary focused on technologies used and your impact.
+### 2. SkillForge API
+Brief description: A backend-first learning platform API with authentication, progress tracking, and recommendation endpoints.
 
-- Repository: https://github.com/princeprog/project-two
-- Live Demo: https://project-two-demo.example.com
+- Repository: https://github.com/princeprog/skillforge-api
+- Live Demo: https://skillforge-api.example.dev/docs
+- Stack: Python, FastAPI, Redis, PostgreSQL, GitHub Actions
 
-### 3. Project Three
-Brief description: A short summary with key feature highlights.
+### 3. SnapBudget
+Brief description: A personal finance app for tracking expenses, category budgets, and monthly trends with smart alerts.
 
-- Repository: https://github.com/princeprog/project-three
-- Live Demo: https://project-three-demo.example.com
+- Repository: https://github.com/princeprog/snapbudget
+- Live Demo: https://snapbudget.example.dev
+- Stack: Next.js, TypeScript, Prisma, Tailwind CSS
 
 ## GitHub Stats
 
@@ -45,10 +50,10 @@ Add a project GIF to make your profile more engaging:
 
 ## Contact
 
-- LinkedIn: https://www.linkedin.com/in/your-linkedin-handle
-- Twitter/X: https://x.com/your-handle
-- Portfolio: https://your-portfolio.example.com
-- Email: your.email@example.com
+- LinkedIn: https://www.linkedin.com/in/al-prince-dev
+- Twitter/X: https://x.com/alprince_dev
+- Portfolio: https://alprince.dev
+- Email: hello@alprince.dev
 
 ## Best Practices
 
