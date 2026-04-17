@@ -59,6 +59,6 @@ Full Stack Developer | Product-Focused Engineer
 
 ## Contact
 
-- Email: hello@alprince.dev
-- LinkedIn: https://www.linkedin.com/in/al-prince-dev
-- Portfolio: https://alprince.dev
+- Email: alprincellavan2019@gmail.com
+- LinkedIn: https://www.linkedin.com/in/alprince-llavan-34952728a
+- Portfolio: https://https://alprincedev-portfolio.vercel.app
