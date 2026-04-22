@@ -1,4 +1,4 @@
-<h1 align="center">Al Prince</h1>
+# Al Prince Llavan
 
 <p align="center">
   <strong>Full Stack Developer · Product-Focused Engineer</strong><br/>
@@ -88,8 +88,6 @@ Delivers clear, actionable financial summaries with a focus on usability and dat
 
 ---
 
-<p align="center">
-  Open to full-time roles and interesting collaborations. Let's build something great.
-  <br/><br/>
-  <a href="mailto:hello@alprince.dev"><strong>Get in touch →</strong></a>
-</p>
+- Email: alprincellavan2019@gmail.com
+- LinkedIn: https://www.linkedin.com/in/alprince-llavan-34952728a
+- Portfolio: https://https://alprincedev-portfolio.vercel.app
