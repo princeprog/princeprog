@@ -7,7 +7,7 @@
 Building high-performance web apps, scalable backend systems, and clean, accessible interfaces.
 
 [![Email](https://img.shields.io/badge/alprincellavan2019@gmail.com-d97757?style=flat-square&logo=gmail&logoColor=white)](mailto:alprincellavan2019@gmail.com)
-[![Portfolio](https://img.shields.io/badge/alprincedev-portfolio-141413?style=flat-square&logo=safari&logoColor=white)](https://alprincedev-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/alprincedev-141413?style=flat-square&logo=safari&logoColor=white)](https://alprincedev-portfolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alprince-llavan-34952728a/)
 
 </div>
