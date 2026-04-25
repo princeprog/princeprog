@@ -2,10 +2,10 @@
 
 # Al Prince
 
-**Building Resilient Systems · Crafting Exceptional Products**
+**Software Engineer · System Architect**
 
-Full Stack Engineer specializing in high-performance web applications and scalable backend architectures.
-I transform complex business requirements into elegant, production-ready solutions.
+Dedicated to building robust, scalable, and efficient software systems.
+I specialize in solving complex technical challenges through clean architecture and engineering excellence.
 
 [![Email](https://img.shields.io/badge/Email-alprincellavan2019@gmail.com-d97757?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alprincellavan2019@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alprince-llavan-34952728a/)
@@ -15,13 +15,13 @@ I transform complex business requirements into elegant, production-ready solutio
 
 ---
 
-## ⚡ The Impact
+## ⚙️ Engineering Impact
 
-I am a product-focused engineer who bridges the gap between **technical excellence** and **business value**. My approach combines deep architectural knowledge with a relentless focus on user experience and system reliability.
+I am a Software Engineer driven by the challenge of building high-performance systems that are both resilient and maintainable. My focus is on technical integrity, architectural clarity, and the systematic elimination of technical debt.
 
-- **Reliability**: Architecting systems that handle traffic spikes and complex data flows with zero downtime.
-- **Velocity**: Leveraging modern toolsets and best practices to accelerate development cycles.
-- **Precision**: Delivering pixel-perfect, accessible interfaces that engage and convert users.
+- **Scalability**: Designing distributed systems that handle high concurrency and data throughput with efficiency.
+- **Architectural Integrity**: Implementing clean code principles and design patterns to ensure long-term system health.
+- **Problem Solving**: Deep-diving into complex bottlenecks to optimize performance at the core level.
 
 ---
 
@@ -37,19 +37,19 @@ I am a product-focused engineer who bridges the gap between **technical excellen
 
 ## 🚀 Featured Case Studies
 
-### [OpsBoard](https://github.com/princeprog) — *Real-time Operational Intelligence*
-**The Challenge**: Engineering teams struggling with fragmented data during critical incidents.
-**The Solution**: Developed a centralized dashboard that aggregates incident tracking, SLA monitoring, and deployment visibility into a single, high-performance interface.
-**The Impact**: Reduced MTTR (Mean Time To Recovery) by centralizing context and eliminating tool-switching.
+### [OpsBoard](https://github.com/princeprog) — *Distributed Monitoring & Observability*
+**The Challenge**: Fragmentation of telemetry and operational data during high-traffic incidents.
+**The Solution**: Architected a centralized system to aggregate distributed traces, SLA metrics, and deployment state into a low-latency interface.
+**The Impact**: Significantly reduced MTTR through improved observability and context-aware alerting.
 
 `React` `TypeScript` `Node.js` `PostgreSQL` `Docker`
 
 ---
 
-### [SkillForge API](https://github.com/princeprog) — *Scalable Learning Infrastructure*
-**The Challenge**: Building a learning platform that can personalize content delivery for thousands of concurrent users.
-**The Solution**: Engineered a robust backend using FastAPI and Redis caching, featuring JWT-based authentication and a scalable recommendation engine.
-**The Impact**: Achieved sub-second response times for personalized learning paths, ensuring a seamless user experience.
+### [SkillForge API](https://github.com/princeprog) — *Scalable Learning Systems*
+**The Challenge**: Designing a recommendation engine capable of personalizing learning paths for concurrent global users.
+**The Solution**: Engineered a high-throughput API with FastAPI and Redis, featuring custom middleware for secure JWT authentication and optimized database pooling.
+**The Impact**: Maintained sub-second latency across 1,000+ concurrent connections while ensuring strict data consistency.
 
 `Python` `FastAPI` `Redis` `PostgreSQL`
 
@@ -64,12 +64,12 @@ I am a product-focused engineer who bridges the gap between **technical excellen
 
 ---
 
-## 🎯 Core Competencies
+## 🎯 Core Engineering Competencies
 
-- **Architecture**: Design of scalable RESTful APIs and event-driven systems.
-- **Frontend**: Development of high-craft, mobile-first, and accessible web interfaces.
-- **Performance**: Deep optimization of database queries and client-side rendering.
-- **DevOps**: Streamlining deployments with Docker and CI/CD pipelines.
+- **System Design**: Architecting scalable RESTful APIs, microservices, and event-driven architectures.
+- **Backend Systems**: Expert implementation of robust logic with Python, Node.js, and Type-safe languages.
+- **Data Engineering**: Design and optimization of PostgreSQL schemas, indexing strategies, and caching layers.
+- **Infrastructure**: Managing containerized environments with Docker and automating deployments via CI/CD.
 
 ---
 
