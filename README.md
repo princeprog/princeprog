@@ -24,12 +24,26 @@ Currently crafting tools that improve developer velocity and system observabilit
 
 ## Tech Stack
 
-| Layer | Technologies |
-|---|---|
-| **Frontend** | React · Next.js · TypeScript · Tailwind CSS |
-| **Backend** | Node.js · Express · Python · FastAPI |
-| **Database** | PostgreSQL · MongoDB · Redis · Prisma |
-| **Tooling** | Git · GitHub · Docker · Postman |
+<div align="center">
+
+**Frontend**
+<br/>
+[![Frontend](https://skillicons.dev/icons?i=react,nextjs,ts,tailwind)](https://skillicons.dev)
+
+**Backend**
+<br/>
+[![Backend](https://skillicons.dev/icons?i=nodejs,express,py,fastapi)](https://skillicons.dev)
+
+**Database**
+<br/>
+[![Database](https://skillicons.dev/icons?i=postgres,mongodb,redis,prisma)](https://skillicons.dev)
+
+**Tooling**
+<br/>
+[![Tooling](https://skillicons.dev/icons?i=git,github,docker,postman)](https://skillicons.dev)
+
+</div>
+
 
 ---
 
