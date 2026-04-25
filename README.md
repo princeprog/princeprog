@@ -1,7 +1,5 @@
 <div align="center">
 
-![Banner](assets/banner.png)
-
 # Hi there, I'm Al Prince Llavan! 👋
 
 **Software Engineer · System Architect**
@@ -13,17 +11,17 @@ I specialize in solving complex technical challenges through clean architecture 
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 I am a Software Engineer driven by the challenge of building high-performance systems that are both resilient and maintainable. My focus is on technical integrity, architectural clarity, and the systematic elimination of technical debt.
 
-- **🚀 Scalability**: Designing distributed systems that handle high concurrency and data throughput with efficiency.
-- **🏗️ Architectural Integrity**: Implementing clean code principles and design patterns to ensure long-term system health.
-- **🧩 Problem Solving**: Deep-diving into complex bottlenecks to optimize performance at the core level.
+- **Scalability**: Designing distributed systems that handle high concurrency and data throughput with efficiency.
+- **Architectural Integrity**: Implementing clean code principles and design patterns to ensure long-term system health.
+- **Problem Solving**: Deep-diving into complex bottlenecks to optimize performance at the core level.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -33,7 +31,7 @@ I am a Software Engineer driven by the challenge of building high-performance sy
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -45,7 +43,7 @@ I am a Software Engineer driven by the challenge of building high-performance sy
 
 ---
 
-## 📝 Latest Blog Posts
+## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 *Currently crafting new insights. Stay tuned!*
@@ -53,7 +51,7 @@ I am a Software Engineer driven by the challenge of building high-performance sy
 
 ---
 
-## 🤝 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -62,3 +60,4 @@ I am a Software Engineer driven by the challenge of building high-performance sy
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore-141413?style=for-the-badge&logo=safari&logoColor=white)](https://alprincedev-portfolio.vercel.app)
 
 </div>
+
