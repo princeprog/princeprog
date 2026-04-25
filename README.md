@@ -32,36 +32,6 @@ I am a Software Engineer driven by the challenge of building high-performance sy
     <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,nodejs,express,py,fastapi,postgres,mongodb,redis,prisma,git,github,docker,postman&perline=8" />
   </a>
 </div>
-
----
-
-## 🚀 Featured Case Studies
-
-### [OpsBoard](https://github.com/princeprog) — *Distributed Monitoring & Observability*
-**The Challenge**: Fragmentation of telemetry and operational data during high-traffic incidents.
-**The Solution**: Architected a centralized system to aggregate distributed traces, SLA metrics, and deployment state into a low-latency interface.
-**The Impact**: Significantly reduced MTTR through improved observability and context-aware alerting.
-
-`React` `TypeScript` `Node.js` `PostgreSQL` `Docker`
-
----
-
-### [SkillForge API](https://github.com/princeprog) — *Scalable Learning Systems*
-**The Challenge**: Designing a recommendation engine capable of personalizing learning paths for concurrent global users.
-**The Solution**: Engineered a high-throughput API with FastAPI and Redis, featuring custom middleware for secure JWT authentication and optimized database pooling.
-**The Impact**: Maintained sub-second latency across 1,000+ concurrent connections while ensuring strict data consistency.
-
-`Python` `FastAPI` `Redis` `PostgreSQL`
-
----
-
-### [SnapBudget](https://github.com/princeprog) — *Financial Data Integrity*
-**The Challenge**: Creating a finance tool that users trust with their most sensitive data.
-**The Solution**: Built a secure, full-stack application with Next.js and Prisma, focusing on transactional integrity and clear data visualization.
-**The Impact**: Delivered a reliable platform for expense tracking that empowers users with actionable spending insights.
-
-`Next.js` `TypeScript` `Prisma` `PostgreSQL`
-
 ---
 
 ## 🎯 Core Engineering Competencies
