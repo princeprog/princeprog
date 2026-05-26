@@ -1,23 +1,29 @@
 <div align="center">
 
-# Hi there, I'm Al Prince Llavan! 👋
+# Al Prince Llavan
 
-**Software Engineer · System Architect**
+### Full-Stack Developer · Software Engineer · System Architect
 
-Dedicated to building robust, scalable, and efficient software systems.
-I specialize in solving complex technical challenges through clean architecture and engineering excellence.
+I help founders, teams, and growing businesses turn ideas into polished web apps, scalable APIs, and reliable product systems.
+
+Available for full-stack web projects, backend architecture, and technical collaboration.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_Work-141413?style=for-the-badge&logo=safari&logoColor=white)](https://alprincedev-portfolio.vercel.app)
+[![Email](https://img.shields.io/badge/Email-Start_a_Project-d97757?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alprincellavan2019@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alprince-llavan-34952728a/)
+[![GitHub](https://img.shields.io/badge/GitHub-princeprog-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/princeprog)
 
 </div>
 
 ---
 
-## About Me
+## About
 
-I am a Software Engineer driven by the challenge of building high-performance systems that are both resilient and maintainable. My focus is on technical integrity, architectural clarity, and the systematic elimination of technical debt.
+I build product-focused software with the technical discipline to keep it maintainable after launch. My work blends clean interfaces, dependable backend services, and architecture that can grow with real users.
 
-- **Scalability**: Designing distributed systems that handle high concurrency and data throughput with efficiency.
-- **Architectural Integrity**: Implementing clean code principles and design patterns to ensure long-term system health.
-- **Problem Solving**: Deep-diving into complex bottlenecks to optimize performance at the core level.
+- **For clients**: I translate business goals into practical features, smooth user flows, and maintainable delivery plans.
+- **For product teams**: I design full-stack systems that are readable, testable, and ready to evolve.
+- **For collaborators**: I bring strong ownership across frontend, backend, databases, APIs, and deployment workflows.
 
 ---
 
