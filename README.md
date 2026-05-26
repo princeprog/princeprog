@@ -27,6 +27,35 @@ I build product-focused software with the technical discipline to keep it mainta
 
 ---
 
+## What I Can Build For You
+
+| Service | How I Help |
+| --- | --- |
+| **Full-stack web apps** | Build responsive, production-ready applications with thoughtful UX, clean component systems, and reliable data flows. |
+| **Backend APIs & architecture** | Design REST APIs, database models, authentication flows, and service layers that are maintainable as the product grows. |
+| **AI & workflow features** | Add practical automation, summarization, task extraction, and knowledge workflows where they create real product value. |
+
+---
+
+## Proof Points
+
+| 100+ | 40+ | 4.9+ | 3K+ |
+| --- | --- | --- | --- |
+| Features Shipped | Project Upgrades | Client Rating | Positive Ratings |
+
+---
+
+## Featured Work
+
+| Project | What It Demonstrates | Links |
+| --- | --- | --- |
+| **Synapse** | Real-time AI team workspace with chat, docs, summarization, task extraction, RAG Q&A, and workflow automation. | [API](https://github.com/princeprog/synapse-api) · [UI](https://github.com/princeprog/synapse-ui) |
+| **Lamika Moalboal** | Business-focused web presence for a Filipino cafe-style restaurant in a high-traffic tourism area. | [Repository](https://github.com/princeprog/lamika-moalboal) |
+| **StartupSphere v2** | Startup discovery and ecosystem visualization with an interactive product experience. | [Frontend](https://github.com/princeprog/startupspherev2-frontend) · [Backend](https://github.com/princeprog/startupspherev2-backend) |
+| **ProPath** | Spring Boot REST API foundation for users, authentication, and core platform features. | [Backend](https://github.com/princeprog/propath-backend) |
+
+---
+
 ## Tech Stack
 
 <div align="center">
