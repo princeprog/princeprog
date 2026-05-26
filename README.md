@@ -56,7 +56,14 @@ I build product-focused software with the technical discipline to keep it mainta
 
 ---
 
-## Tech Stack
+## Tech I Work With
+
+| Area | Tools |
+| --- | --- |
+| **Frontend** | React, Next.js, TypeScript, Tailwind CSS |
+| **Backend** | Node.js, Express, Python, FastAPI |
+| **Data & persistence** | PostgreSQL, MongoDB, Redis, Prisma |
+| **Delivery & collaboration** | Git, GitHub, Docker, Postman |
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -66,33 +73,28 @@ I build product-focused software with the technical discipline to keep it mainta
 
 ---
 
-## GitHub Stats
+## GitHub Snapshot
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=princeprog&show_icons=true&hide_border=true&theme=dark&bg_color=00000000&title_color=d97757&text_color=b0aea5&icon_color=6a9bcc)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=princeprog&layout=compact&hide_border=true&theme=dark&bg_color=00000000&title_color=d97757&text_color=b0aea5)
+![GitHub Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=princeprog&theme=transparent)
+
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=princeprog&theme=transparent)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=princeprog&theme=transparent)
 
 </div>
 
 ---
 
-## Latest Blog Posts
+## Let's Build Something Useful
 
-<!-- BLOG-POST-LIST:START -->
-*Currently crafting new insights. Stay tuned!*
-<!-- BLOG-POST-LIST:END -->
-
----
-
-## Connect With Me
+If you need a developer who can move from product idea to working software, I would be glad to help shape the build, ship the first version, or improve an existing system.
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-alprincellavan2019@gmail.com-d97757?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alprincellavan2019@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore_Work-141413?style=for-the-badge&logo=safari&logoColor=white)](https://alprincedev-portfolio.vercel.app)
+[![Email](https://img.shields.io/badge/Email-Start_a_Project-d97757?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alprincellavan2019@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alprince-llavan-34952728a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-141413?style=for-the-badge&logo=safari&logoColor=white)](https://alprincedev-portfolio.vercel.app)
 
 </div>
 
