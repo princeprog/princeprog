@@ -34,8 +34,17 @@ jobs:
 
       - name: Create file, commit, remove file, commit, push to origin/main
         shell: bash
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           set -euo pipefail
+          if [ -z "${GH_PAT:-}" ]; then
+            echo "GH_PAT secret is empty or unavailable."
+            exit 1
+          fi
+
+          # Ensure pushes authenticate with the user PAT (not the default token/actor)
+          git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/${GITHUB_REPOSITORY}.git"
 
           FILE="automation-heartbeat.txt"
 
