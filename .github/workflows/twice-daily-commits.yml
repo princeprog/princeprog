@@ -25,11 +25,12 @@ jobs:
           ref: main
           fetch-depth: 0
           persist-credentials: true
+          token: ${{ secrets.GH_PAT }}
 
       - name: Configure git identity
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Al Prince Llavan"
+          git config user.email "alprincellavan2019@gmail.com"
 
       - name: Create file, commit, remove file, commit, push to origin/main
         shell: bash
