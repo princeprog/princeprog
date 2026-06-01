@@ -44,7 +44,7 @@ jobs:
           fi
 
           # Ensure pushes authenticate with the user PAT (not the default token/actor)
-          git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/${GITHUB_REPOSITORY}.git"
+          git remote set-url origin "https://${GH_PAT}@github.com/${GITHUB_REPOSITORY}.git"
 
           FILE="automation-heartbeat.txt"
 
