@@ -1,0 +1,52 @@
+name: Twice Daily Commit + Push
+
+on:
+  schedule:
+    # GitHub Actions cron uses UTC.
+    # Runs twice daily at 00:00 and 12:00 UTC.
+    - cron: "0 0 * * *"
+    - cron: "0 12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: twice-daily-commits
+  cancel-in-progress: false
+
+jobs:
+  commit-twice-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Create file, commit, remove file, commit, push to origin/main
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          FILE="automation-heartbeat.txt"
+
+          # 1) Create file -> commit
+          printf "heartbeat %s\n" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > "$FILE"
+          git add "$FILE"
+          git commit -m "chore(automation): add heartbeat file" || true
+
+          # 2) Remove file -> commit
+          rm -f "$FILE"
+          git add -A
+          git commit -m "chore(automation): remove heartbeat file" || true
+
+          # Push to origin/main
+          git push origin HEAD:main
