@@ -3,9 +3,9 @@ name: Twice Daily Commit + Push
 on:
   schedule:
     # GitHub Actions cron uses UTC.
-    # Runs twice daily at 00:00 and 12:00 UTC.
-    - cron: "0 0 * * *"
-    - cron: "0 12 * * *"
+    # Runs twice daily at 04:00 and 16:00 UTC (12:00 PM and 12:00 AM Asia/Manila).
+    - cron: "0 4 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch: {}
 
 permissions:
