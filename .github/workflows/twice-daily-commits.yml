@@ -24,7 +24,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          persist-credentials: true
+          persist-credentials: false
           token: ${{ secrets.GH_PAT }}
 
       - name: Configure git identity
@@ -43,8 +43,8 @@ jobs:
             exit 1
           fi
 
-          # Ensure pushes authenticate with the user PAT (not the default token/actor)
-          git remote set-url origin "https://${GH_PAT}@github.com/${GITHUB_REPOSITORY}.git"
+          # Use the PAT explicitly for pushes so token rotation does not leave stale checkout credentials behind.
+          git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/${GITHUB_REPOSITORY}.git"
 
           FILE="automation-heartbeat.txt"
 
