@@ -35,6 +35,7 @@ jobs:
         shell: bash
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+          GH_USERNAME: princeprog
         run: |
           set -euo pipefail
           if [ -z "${GH_PAT:-}" ]; then
@@ -42,8 +43,8 @@ jobs:
             exit 1
           fi
 
-          # Use the PAT explicitly for pushes so token rotation does not leave stale checkout credentials behind.
-          git remote set-url origin "https://x-access-token:${GH_PAT}@github.com/${GITHUB_REPOSITORY}.git"
+          # Personal access tokens authenticate over HTTPS as username + token.
+          git remote set-url origin "https://${GH_USERNAME}:${GH_PAT}@github.com/${GITHUB_REPOSITORY}.git"
 
           FILE="automation-heartbeat.txt"
 
