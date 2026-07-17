@@ -1,254 +1,141 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="940" viewBox="0 0 1440 940" role="img" aria-labelledby="title desc">
-  <title id="title">Al Prince Llavan — GitHub profile dashboard</title>
-  <desc id="desc">A dark developer dashboard introducing Al Prince Llavan, his technology stack, featured projects, profile details, GitHub snapshot, and contact links.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Al Prince Llavan — full-stack product engineer</title>
+  <desc id="desc">A polished dark blue developer banner introducing Al Prince Llavan and his focus on product engineering, scalable systems, and AI-enabled workflows.</desc>
+
   <defs>
-    <linearGradient id="pageBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030b15"/>
-      <stop offset="0.52" stop-color="#071321"/>
-      <stop offset="1" stop-color="#050d17"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06101d"/>
+      <stop offset="0.55" stop-color="#0a1728"/>
+      <stop offset="1" stop-color="#0c1b2e"/>
     </linearGradient>
-    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1828" stop-opacity="0.96"/>
-      <stop offset="1" stop-color="#07111d" stop-opacity="0.98"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#57a6ff"/>
+      <stop offset="0.52" stop-color="#6c7cff"/>
+      <stop offset="1" stop-color="#a66bff"/>
     </linearGradient>
-    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#46a4ff"/>
-      <stop offset="0.52" stop-color="#6475ff"/>
-      <stop offset="1" stop-color="#9b5cff"/>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101f33" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#0a1525" stop-opacity="0.98"/>
     </linearGradient>
-    <linearGradient id="avatarRing" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8b5cf6"/>
-      <stop offset="0.5" stop-color="#377dff"/>
-      <stop offset="1" stop-color="#22d3ee"/>
-    </linearGradient>
-    <linearGradient id="primaryButton" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#247cff"/>
-      <stop offset="1" stop-color="#7654f6"/>
-    </linearGradient>
-    <linearGradient id="projectLine1" x1="0" x2="1">
-      <stop offset="0" stop-color="#268cff"/>
-      <stop offset="1" stop-color="#7058ff"/>
-    </linearGradient>
-    <linearGradient id="projectLine2" x1="0" x2="1">
-      <stop offset="0" stop-color="#7058ff"/>
-      <stop offset="1" stop-color="#b05cff"/>
-    </linearGradient>
-    <linearGradient id="projectLine3" x1="0" x2="1">
-      <stop offset="0" stop-color="#ff714d"/>
-      <stop offset="1" stop-color="#ffb13b"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#237cff" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#237cff" stop-opacity="0"/>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2d8cff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#2d8cff" stop-opacity="0"/>
     </radialGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000814" flood-opacity="0.6"/>
-    </filter>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="9" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="avatarClip">
-      <circle cx="160" cy="184" r="102"/>
-    </clipPath>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#17304a" stroke-opacity="0.13" stroke-width="1"/>
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#22405f" stroke-width="1" stroke-opacity="0.16"/>
     </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000812" flood-opacity="0.54"/>
+    </filter>
     <style>
-      .font { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-      .title { fill: #f4f8ff; font-weight: 700; }
-      .body { fill: #c3d0e3; font-weight: 400; }
-      .muted { fill: #91a6c1; }
-      .blue { fill: #59a3ff; }
-      .section { font-size: 18px; font-weight: 700; fill: #f1f5fb; }
-      .small { font-size: 13px; }
-      .label { font-size: 12px; letter-spacing: 0.8px; }
-      .card { fill: url(#cardBg); stroke: #1d344d; stroke-width: 1; }
-      .divider { stroke: #29405a; stroke-width: 1; }
-      .iconBox { fill: #10243b; stroke: #28517a; stroke-width: 1; }
+      .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .white { fill: #f5f8ff; }
+      .body { fill: #b9c8dc; }
+      .muted { fill: #7f94af; }
+      .blue { fill: #63a9ff; }
+      .violet { fill: #a98bff; }
+      .green { fill: #4ade9a; }
     </style>
   </defs>
 
-  <rect width="1440" height="940" rx="18" fill="url(#pageBg)"/>
-  <rect width="1440" height="940" rx="18" fill="url(#grid)"/>
-  <ellipse cx="295" cy="185" rx="330" ry="250" fill="url(#glow)"/>
-  <ellipse cx="1160" cy="675" rx="280" ry="245" fill="url(#glow)" opacity="0.45"/>
-  <rect x="1" y="1" width="1438" height="938" rx="17" fill="none" stroke="#1b344d"/>
+  <rect width="1200" height="460" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="460" rx="24" fill="url(#grid)"/>
+  <ellipse cx="160" cy="105" rx="360" ry="280" fill="url(#glowBlue)"/>
+  <ellipse cx="1050" cy="410" rx="330" ry="260" fill="url(#glowViolet)"/>
+  <rect x="1" y="1" width="1198" height="458" rx="23" fill="none" stroke="#24415e"/>
 
-  <!-- README header -->
-  <g class="font">
-    <path d="M28 22h10c4 0 7 3 7 7v14c0-4-3-6-7-6H28zM28 22h-3c-3 0-5 2-5 5v15c0-3 2-5 5-5h3z" fill="none" stroke="#a9c4e6" stroke-width="1.5" stroke-linejoin="round"/>
-    <text x="58" y="37" class="body" font-size="14">README.md</text>
-    <text x="1244" y="37" class="muted small">PROFILE / 2026</text>
-  </g>
-  <line x1="0" y1="54" x2="1440" y2="54" class="divider" opacity="0.85"/>
-
-  <!-- Hero -->
-  <g class="font">
-    <circle cx="160" cy="184" r="111" fill="#06111f" stroke="url(#avatarRing)" stroke-width="4" filter="url(#shadow)"/>
-    <circle cx="160" cy="184" r="105" fill="#0c1a29"/>
-    <image x="58" y="82" width="204" height="204" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)" href="data:image/jpeg;base64,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"/>
-    <circle cx="244" cy="263" r="15" fill="#27d980" stroke="#07121e" stroke-width="5" filter="url(#softGlow)"/>
-
-    <text x="302" y="135" class="title" font-size="41">Hi there, I’m</text>
-    <text x="556" y="135" font-size="41" font-weight="800" fill="url(#nameGradient)">Al Prince</text>
-    <path d="M747 103c7-10 17-8 15 3 8-8 16-3 11 7 8-4 14 2 8 10 8 0 10 8 3 13-12 10-26 14-41 3-8-6-7-17 4-36z" fill="#f8b82f" opacity="0.96"/>
-    <text x="302" y="174" class="muted" font-size="19">Software Engineer  •  Full-Stack Developer  •  System Architect</text>
-    <rect x="302" y="203" width="2" height="55" rx="1" fill="#47769e"/>
-    <text x="316" y="222" class="body" font-size="16">I turn product ideas into polished web apps, scalable APIs,</text>
-    <text x="316" y="248" class="body" font-size="16">and reliable systems built to grow with real users.</text>
-
-    <rect x="302" y="278" width="187" height="45" rx="8" fill="url(#primaryButton)"/>
-    <path d="M323 302l16-11-7 17-3-6-6 0z" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>
-    <text x="347" y="306" fill="#fff" font-size="15" font-weight="600">View My Projects</text>
-    <rect x="505" y="278" width="176" height="45" rx="8" fill="#081321" stroke="#34506d"/>
-    <path d="M526 291h12l5 5v14h-17zM538 291v6h5" fill="none" stroke="#bcd0e7" stroke-width="1.4" stroke-linejoin="round"/>
-    <text x="551" y="306" fill="#eaf1fa" font-size="15" font-weight="600">Explore My Work</text>
-
-    <!-- subtle code dots -->
-    <g fill="#1f6ca8" opacity="0.26">
-      <circle cx="820" cy="101" r="2"/><circle cx="846" cy="101" r="2"/><circle cx="872" cy="101" r="2"/><circle cx="898" cy="101" r="2"/>
-      <circle cx="820" cy="127" r="2"/><circle cx="846" cy="127" r="2"/><circle cx="872" cy="127" r="2"/><circle cx="898" cy="127" r="2"/>
-      <circle cx="820" cy="153" r="2"/><circle cx="846" cy="153" r="2"/><circle cx="872" cy="153" r="2"/><circle cx="898" cy="153" r="2"/>
-      <circle cx="820" cy="179" r="2"/><circle cx="846" cy="179" r="2"/><circle cx="872" cy="179" r="2"/><circle cx="898" cy="179" r="2"/>
-    </g>
+  <g opacity="0.55">
+    <path d="M0 382H182L218 346H390" fill="none" stroke="#285075"/>
+    <circle cx="218" cy="346" r="4" fill="#56a7ff"/>
+    <path d="M1030 24v55l-35 35v66" fill="none" stroke="#3a4675"/>
+    <circle cx="995" cy="114" r="4" fill="#9b7cff"/>
   </g>
 
-  <!-- Sidebar: about -->
-  <g class="font">
-    <rect x="1006" y="73" width="398" height="300" rx="14" class="card" filter="url(#shadow)"/>
-    <circle cx="1038" cy="105" r="10" fill="none" stroke="#2fa7ff" stroke-width="2"/>
-    <path d="M1023 131c1-10 7-15 15-15s14 5 15 15z" fill="none" stroke="#2fa7ff" stroke-width="2"/>
-    <text x="1066" y="113" class="section">About Me</text>
-
-    <rect x="1024" y="145" width="28" height="28" rx="6" class="iconBox"/>
-    <text x="1038" y="164" text-anchor="middle" class="blue" font-size="13" font-weight="700">&lt;/&gt;</text>
-    <text x="1065" y="164" class="body" font-size="15">Software Engineer</text>
-
-    <rect x="1024" y="184" width="28" height="28" rx="6" class="iconBox"/>
-    <path d="M1038 191c-5 0-8 3-8 7 0 6 8 12 8 12s8-6 8-12c0-4-3-7-8-7z" fill="none" stroke="#55a5ff" stroke-width="1.5"/><circle cx="1038" cy="198" r="2.3" fill="#55a5ff"/>
-    <text x="1065" y="203" class="body" font-size="15">Philippines</text>
-
-    <rect x="1024" y="223" width="28" height="28" rx="6" class="iconBox"/>
-    <path d="M1030 231h16v12h-16zM1030 231l8 7 8-7" fill="none" stroke="#55a5ff" stroke-width="1.4" stroke-linejoin="round"/>
-    <text x="1065" y="242" class="body" font-size="15">alprincellavan2019@gmail.com</text>
-
-    <rect x="1024" y="262" width="28" height="28" rx="6" class="iconBox"/>
-    <path d="M1034 278l-2 2a4 4 0 005 5l4-4a4 4 0 000-6M1042 274l2-2a4 4 0 00-5-5l-4 4a4 4 0 000 6" fill="none" stroke="#55a5ff" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="1065" y="281" class="body" font-size="15">alprincedev-portfolio.vercel.app</text>
-    <line x1="1028" y1="311" x2="1382" y2="311" class="divider"/>
-    <text x="1205" y="337" text-anchor="middle" class="body" font-size="14">“Build clearly. Ship thoughtfully. Keep learning.”</text>
-    <text x="1205" y="358" text-anchor="middle" class="blue" font-size="13">— my engineering approach</text>
-  </g>
-
-  <!-- Tech stack -->
-  <g class="font">
-    <rect x="30" y="356" width="946" height="158" rx="14" class="card"/>
-    <rect x="51" y="376" width="27" height="25" rx="6" class="iconBox"/>
-    <text x="64.5" y="393" text-anchor="middle" class="blue" font-size="12" font-weight="700">$_</text>
-    <text x="88" y="395" class="section">Tech Stack</text>
-
-    <g transform="translate(51 418)">
-      <g transform="translate(0)"><rect width="69" height="61" rx="10" fill="#f1c40f"/><text x="34.5" y="30" text-anchor="middle" fill="#151515" font-size="17" font-weight="800">JS</text><text x="34.5" y="82" text-anchor="middle" class="body small">JavaScript</text></g>
-      <g transform="translate(89)"><rect width="69" height="61" rx="10" fill="#3178c6"/><text x="34.5" y="30" text-anchor="middle" fill="#fff" font-size="17" font-weight="800">TS</text><text x="34.5" y="82" text-anchor="middle" class="body small">TypeScript</text></g>
-      <g transform="translate(178)"><rect width="69" height="61" rx="10" fill="#070b12" stroke="#d9e1ea"/><text x="34.5" y="30" text-anchor="middle" fill="#fff" font-size="17" font-weight="700">N</text><text x="34.5" y="82" text-anchor="middle" class="body small">Next.js</text></g>
-      <g transform="translate(267)"><rect width="69" height="61" rx="10" fill="#0b2230" stroke="#22d3ee"/><circle cx="34.5" cy="28" r="5" fill="#61dafb"/><ellipse cx="34.5" cy="28" rx="24" ry="9" fill="none" stroke="#61dafb"/><ellipse cx="34.5" cy="28" rx="24" ry="9" fill="none" stroke="#61dafb" transform="rotate(60 34.5 28)"/><ellipse cx="34.5" cy="28" rx="24" ry="9" fill="none" stroke="#61dafb" transform="rotate(120 34.5 28)"/><text x="34.5" y="82" text-anchor="middle" class="body small">React</text></g>
-      <g transform="translate(356)"><rect width="69" height="61" rx="10" fill="#173b23" stroke="#5fae45"/><text x="34.5" y="34" text-anchor="middle" fill="#79c45a" font-size="18" font-weight="800">NODE</text><text x="34.5" y="82" text-anchor="middle" class="body small">Node.js</text></g>
-      <g transform="translate(445)"><rect width="69" height="61" rx="10" fill="#111827" stroke="#d7dce3"/><text x="34.5" y="34" text-anchor="middle" fill="#f4f4f5" font-size="17" font-weight="800">EX</text><text x="34.5" y="82" text-anchor="middle" class="body small">Express</text></g>
-      <g transform="translate(534)"><rect width="69" height="61" rx="10" fill="#0e2632" stroke="#2dd4bf"/><path d="M12 36c13-13 25-13 45-3-15-2-21 10-45 3z" fill="#38bdf8"/><text x="34.5" y="82" text-anchor="middle" class="body small">Tailwind</text></g>
-      <g transform="translate(623)"><rect width="69" height="61" rx="10" fill="#17243e" stroke="#4b7bec"/><text x="34.5" y="34" text-anchor="middle" fill="#6ea8ff" font-size="17" font-weight="800">PG</text><text x="34.5" y="82" text-anchor="middle" class="body small">Postgres</text></g>
-      <g transform="translate(712)"><rect width="69" height="61" rx="10" fill="#0c2a20" stroke="#25b47e"/><path d="M20 12h31L31 49l4-25z" fill="#36d399"/><text x="34.5" y="82" text-anchor="middle" class="body small">Prisma</text></g>
-      <g transform="translate(801)"><rect width="69" height="61" rx="10" fill="#122439" stroke="#2496ed"/><path d="M16 26h39v15H23c-8 0-10-8-7-15z" fill="#2496ed"/><g fill="#c9e7ff"><rect x="22" y="16" width="6" height="6"/><rect x="31" y="16" width="6" height="6"/><rect x="40" y="16" width="6" height="6"/></g><text x="34.5" y="82" text-anchor="middle" class="body small">Docker</text></g>
-    </g>
-  </g>
-
-  <!-- GitHub snapshot -->
-  <g class="font">
-    <rect x="1006" y="393" width="398" height="214" rx="14" class="card"/>
-    <path d="M1027 421h5v14h-5zM1036 414h5v21h-5zM1045 406h5v29h-5z" fill="#438fff"/>
-    <text x="1066" y="426" class="section">GitHub Snapshot</text>
-    <text x="1031" y="466" class="body" font-size="15">Public repositories</text><text x="1374" y="466" text-anchor="end" fill="#4f8cff" font-size="17" font-weight="700">27</text>
-    <text x="1031" y="500" class="body" font-size="15">Followers</text><text x="1374" y="500" text-anchor="end" fill="#7a68ff" font-size="17" font-weight="700">4</text>
-    <text x="1031" y="534" class="body" font-size="15">Primary language</text><text x="1374" y="534" text-anchor="end" fill="#54a8ff" font-size="16" font-weight="700">TypeScript</text>
-    <text x="1031" y="568" class="body" font-size="15">Current focus</text><text x="1374" y="568" text-anchor="end" fill="#39d796" font-size="16" font-weight="700">Full-Stack</text>
-  </g>
-
-  <!-- Featured projects -->
-  <g class="font">
-    <rect x="30" y="536" width="946" height="306" rx="14" class="card"/>
-    <path d="M53 568l16-10-6 16-5-5-5-1z" fill="none" stroke="#75b8ff" stroke-width="1.5" stroke-linejoin="round"/>
-    <text x="82" y="572" class="section">Featured Projects</text>
-
-    <g transform="translate(45 591)">
-      <rect width="292" height="211" rx="13" fill="#0c1929" stroke="#27415c"/>
-      <rect x="17" y="17" width="44" height="44" rx="10" fill="#12345a" stroke="#2d6da7"/>
-      <path d="M28 39h22M32 33h14M35 27h8" stroke="#8ccaff" stroke-width="2" stroke-linecap="round"/>
-      <text x="74" y="44" class="title" font-size="17">Synapse</text>
-      <rect x="215" y="21" width="58" height="26" rx="6" fill="#102a50"/><text x="244" y="39" text-anchor="middle" fill="#67a8ff" font-size="12">TypeScript</text>
-      <text x="18" y="91" class="body" font-size="14">Real-time AI team workspace</text>
-      <text x="18" y="115" class="body" font-size="14">for chat, docs, RAG Q&amp;A, and</text>
-      <text x="18" y="139" class="body" font-size="14">workflow automation.</text>
-      <text x="18" y="176" class="blue" font-size="13">API + UI repositories  →</text>
-      <rect x="14" y="197" width="264" height="4" rx="2" fill="#192a3e"/><rect x="14" y="197" width="183" height="4" rx="2" fill="url(#projectLine1)"/>
+  <g class="sans">
+    <g transform="translate(58 54)">
+      <circle cx="7" cy="7" r="6" fill="#40d998"/>
+      <circle cx="7" cy="7" r="10" fill="none" stroke="#40d998" stroke-opacity="0.25"/>
+      <text x="27" y="12" class="green" font-size="13" font-weight="700" letter-spacing="2">FULL-STACK PRODUCT ENGINEER</text>
     </g>
 
-    <g transform="translate(357 591)">
-      <rect width="292" height="211" rx="13" fill="#0c1929" stroke="#27415c"/>
-      <rect x="17" y="17" width="44" height="44" rx="10" fill="#21324a" stroke="#54718f"/>
-      <path d="M24 40h30l-3 10H27zM29 40l4-11h13l4 11" fill="none" stroke="#53c7f4" stroke-width="2"/><circle cx="31" cy="51" r="3" fill="#53c7f4"/><circle cx="48" cy="51" r="3" fill="#53c7f4"/>
-      <text x="74" y="44" class="title" font-size="17">Lamika Moalboal</text>
-      <rect x="215" y="21" width="58" height="26" rx="6" fill="#102a50"/><text x="244" y="39" text-anchor="middle" fill="#67a8ff" font-size="12">Next.js</text>
-      <text x="18" y="91" class="body" font-size="14">A modern web presence for a</text>
-      <text x="18" y="115" class="body" font-size="14">Filipino café in Moalboal’s</text>
-      <text x="18" y="139" class="body" font-size="14">busy tourism district.</text>
-      <text x="18" y="176" class="blue" font-size="13">View repository  →</text>
-      <rect x="14" y="197" width="264" height="4" rx="2" fill="#192a3e"/><rect x="14" y="197" width="171" height="4" rx="2" fill="url(#projectLine2)"/>
-    </g>
+    <text x="58" y="142" class="white" font-size="54" font-weight="760" letter-spacing="-1.6">Al Prince Llavan</text>
+    <rect x="58" y="163" width="492" height="4" rx="2" fill="url(#accent)"/>
 
-    <g transform="translate(669 591)">
-      <rect width="292" height="211" rx="13" fill="#0c1929" stroke="#27415c"/>
-      <rect x="17" y="17" width="44" height="44" rx="10" fill="#37241c" stroke="#a35f3b"/>
-      <circle cx="39" cy="39" r="13" fill="none" stroke="#ff8b58" stroke-width="2"/><path d="M39 26v26M26 39h26" stroke="#ff8b58" stroke-width="1.5"/>
-      <text x="74" y="44" class="title" font-size="17">StartupSphere v2</text>
-      <rect x="215" y="21" width="58" height="26" rx="6" fill="#102a50"/><text x="244" y="39" text-anchor="middle" fill="#67a8ff" font-size="12">Full-Stack</text>
-      <text x="18" y="91" class="body" font-size="14">Startup discovery and ecosystem</text>
-      <text x="18" y="115" class="body" font-size="14">visualization with an interactive</text>
-      <text x="18" y="139" class="body" font-size="14">product experience.</text>
-      <text x="18" y="176" class="blue" font-size="13">Frontend + backend  →</text>
-      <rect x="14" y="197" width="264" height="4" rx="2" fill="#192a3e"/><rect x="14" y="197" width="192" height="4" rx="2" fill="url(#projectLine3)"/>
-    </g>
+    <text x="58" y="216" class="white" font-size="25" font-weight="600">I build thoughtful software that scales.</text>
+    <text x="58" y="254" class="body" font-size="17">Product-minded interfaces, reliable APIs, and practical AI workflows —</text>
+    <text x="58" y="281" class="body" font-size="17">designed clearly and shipped with care.</text>
 
-    <text x="503" y="826" text-anchor="middle" class="blue" font-size="14">Explore all repositories on github.com/princeprog  →</text>
-  </g>
+    <g transform="translate(58 319)">
+      <rect width="154" height="39" rx="19.5" fill="#10243a" stroke="#285078"/>
+      <circle cx="21" cy="19.5" r="5" fill="#57a6ff"/>
+      <text x="36" y="25" class="body" font-size="13" font-weight="600">Product systems</text>
 
-  <!-- Activity -->
-  <g class="font">
-    <rect x="1006" y="627" width="398" height="215" rx="14" class="card"/>
-    <path d="M1038 651c8 10-2 16 5 21 2-7 8-11 8-19 10 11 9 25 0 32-12 9-29 1-27-14 1-8 6-13 14-20z" fill="#ff714d"/>
-    <text x="1066" y="671" class="section">Build Activity</text>
-    <text x="1032" y="714" fill="#42d68b" font-size="34" font-weight="800">SHIP</text>
-    <text x="1032" y="740" class="body" font-size="15">Build • learn • ship</text>
-    <g transform="translate(1213 692)">
-      <g fill="#1d9b58"><rect x="0" y="0" width="17" height="17" rx="4"/><rect x="23" y="0" width="17" height="17" rx="4"/><rect x="46" y="0" width="17" height="17" rx="4"/><rect x="69" y="0" width="17" height="17" rx="4"/><rect x="92" y="0" width="17" height="17" rx="4"/><rect x="115" y="0" width="17" height="17" rx="4"/>
-        <rect x="0" y="23" width="17" height="17" rx="4"/><rect x="23" y="23" width="17" height="17" rx="4" fill="#27b86b"/><rect x="46" y="23" width="17" height="17" rx="4"/><rect x="69" y="23" width="17" height="17" rx="4" fill="#113f31"/><rect x="92" y="23" width="17" height="17" rx="4"/><rect x="115" y="23" width="17" height="17" rx="4" fill="#27b86b"/>
-        <rect x="0" y="46" width="17" height="17" rx="4" fill="#113f31"/><rect x="23" y="46" width="17" height="17" rx="4"/><rect x="46" y="46" width="17" height="17" rx="4" fill="#27b86b"/><rect x="69" y="46" width="17" height="17" rx="4"/><rect x="92" y="46" width="17" height="17" rx="4"/><rect x="115" y="46" width="17" height="17" rx="4"/>
-        <rect x="0" y="69" width="17" height="17" rx="4"/><rect x="23" y="69" width="17" height="17" rx="4" fill="#113f31"/><rect x="46" y="69" width="17" height="17" rx="4"/><rect x="69" y="69" width="17" height="17" rx="4"/><rect x="92" y="69" width="17" height="17" rx="4" fill="#113f31"/><rect x="115" y="69" width="17" height="17" rx="4"/>
-        <rect x="0" y="92" width="17" height="17" rx="4" fill="#113f31"/><rect x="23" y="92" width="17" height="17" rx="4"/><rect x="46" y="92" width="17" height="17" rx="4"/><rect x="69" y="92" width="17" height="17" rx="4" fill="#27b86b"/><rect x="92" y="92" width="17" height="17" rx="4"/><rect x="115" y="92" width="17" height="17" rx="4" fill="#113f31"/>
+      <g transform="translate(166)">
+        <rect width="146" height="39" rx="19.5" fill="#151f3a" stroke="#414d82"/>
+        <circle cx="21" cy="19.5" r="5" fill="#9a7cff"/>
+        <text x="36" y="25" class="body" font-size="13" font-weight="600">AI workflows</text>
+      </g>
+
+      <g transform="translate(324)">
+        <rect width="150" height="39" rx="19.5" fill="#102c2b" stroke="#286258"/>
+        <circle cx="21" cy="19.5" r="5" fill="#45d99a"/>
+        <text x="36" y="25" class="body" font-size="13" font-weight="600">Reliable delivery</text>
       </g>
     </g>
-    <text x="1280" y="820" text-anchor="middle" class="muted small">consistent progress over perfection</text>
+
+    <text x="58" y="414" class="muted" font-size="13" letter-spacing="1.6">PHILIPPINES  /  BUILDING FOR THE WEB  /  ALWAYS LEARNING</text>
   </g>
 
-  <!-- Footer -->
-  <g class="font">
-    <line x1="0" y1="864" x2="1440" y2="864" class="divider"/>
-    <path d="M37 895l9-8a8 8 0 0111 1l3 4-5 5-4-4-8 8zM61 903l8-8a8 8 0 00-1-11l-3-3-5 5 3 3-8 8z" fill="none" stroke="#9bbce0" stroke-width="2" stroke-linecap="round"/>
-    <text x="81" y="897" class="title" font-size="17">Let’s Connect</text>
-    <text x="37" y="923" class="muted" font-size="14">Open to collaboration, product work, and thoughtful engineering opportunities.</text>
+  <g transform="translate(716 60)" filter="url(#shadow)">
+    <rect width="426" height="332" rx="17" fill="url(#card)" stroke="#29435f"/>
+    <rect width="426" height="48" rx="17" fill="#0f1c2e"/>
+    <path d="M0 48H426" stroke="#263b54"/>
+    <circle cx="24" cy="24" r="5" fill="#ff6b72"/>
+    <circle cx="43" cy="24" r="5" fill="#f6c653"/>
+    <circle cx="62" cy="24" r="5" fill="#45d991"/>
+    <text x="213" y="29" text-anchor="middle" class="mono muted" font-size="12">about.ts</text>
 
-    <circle cx="744" cy="904" r="14" fill="#0e76a8"/><text x="744" y="909" text-anchor="middle" fill="#fff" font-size="13" font-weight="800">in</text><text x="769" y="909" class="blue" font-size="14">LinkedIn</text>
-    <circle cx="905" cy="904" r="14" fill="#1d9bf0"/><path d="M898 901c5 0 8-2 11-5-1 4-2 9-8 12-5 3-10 1-12-1 4 0 7-2 9-6z" fill="#fff"/><text x="930" y="909" class="blue" font-size="14">@princeprog</text>
-    <circle cx="1087" cy="904" r="14" fill="#9f3cf3"/><circle cx="1087" cy="904" r="6" fill="none" stroke="#fff" stroke-width="2"/><circle cx="1093" cy="898" r="1.8" fill="#fff"/><text x="1112" y="909" class="blue" font-size="14">Portfolio</text>
-    <circle cx="1250" cy="904" r="14" fill="#142339" stroke="#6f8aa8"/><path d="M1242 904h16M1250 896c-5 5-5 11 0 16M1250 896c5 5 5 11 0 16" fill="none" stroke="#bcd0e7" stroke-width="1"/><text x="1275" y="909" class="body" font-size="14">Email me</text>
+    <g class="mono" font-size="14">
+      <text x="28" y="86" class="violet">const</text>
+      <text x="78" y="86" class="blue">engineer</text>
+      <text x="151" y="86" class="body">= {</text>
+
+      <text x="46" y="120" class="body">name:</text>
+      <text x="98" y="120" fill="#f5c46b">"Al Prince"</text>
+      <text x="190" y="120" class="body">,</text>
+
+      <text x="46" y="153" class="body">craft:</text>
+      <text x="108" y="153" fill="#f5c46b">"end-to-end products"</text>
+      <text x="292" y="153" class="body">,</text>
+
+      <text x="46" y="186" class="body">focus:</text>
+      <text x="108" y="186" class="body">[</text>
+      <text x="120" y="186" fill="#f5c46b">"UX"</text>
+      <text x="154" y="186" class="body">,</text>
+      <text x="167" y="186" fill="#f5c46b">"systems"</text>
+      <text x="243" y="186" class="body">,</text>
+      <text x="256" y="186" fill="#f5c46b">"AI"</text>
+      <text x="289" y="186" class="body">],</text>
+
+      <text x="46" y="219" class="body">principle:</text>
+      <text x="135" y="219" fill="#f5c46b">"clarity over noise"</text>
+      <text x="302" y="219" class="body">,</text>
+
+      <text x="46" y="252" class="body">status:</text>
+      <text x="116" y="252" class="green">"building"</text>
+      <text x="202" y="252" class="body">,</text>
+
+      <text x="28" y="285" class="body">} satisfies</text>
+      <text x="130" y="285" class="blue">CuriousBuilder</text>
+      <text x="258" y="285" class="body">;</text>
+    </g>
+
+    <rect x="28" y="306" width="370" height="2" rx="1" fill="#1f344d"/>
+    <rect x="28" y="306" width="252" height="2" rx="1" fill="url(#accent)"/>
   </g>
 </svg>
